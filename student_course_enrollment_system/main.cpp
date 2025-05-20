@@ -35,6 +35,15 @@ int main() {
         } else if (command == "print") {
             printCourse(courses);
         }
+        else if (command == "student_courses") {
+            printStudentCourses(students);
+        }
+        else if (command == "search_student") {
+            searchStudent(students);
+        }
+        else if (command == "update_student") {
+            updateStudent(students);
+        }
     }
 
     return 0;
